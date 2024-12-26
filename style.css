@@ -1,0 +1,148 @@
+/*komansman BASE CSS*/ 
+:root{
+ --color1: #2b19d0;
+ --color2: #ffce05;
+ --color3:#56ff05;
+}
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+body{
+ background:var(--color1);
+ color: white;
+ font-size: 1.2rem;
+}
+header{
+ padding: 1.2rem;
+ height: auto;
+ background: white;
+ color: var(--color1);
+}
+#espacePub{
+ background: var(--color2);
+ height: 10vh;
+ margin: 1.2rem 0;
+}
+footer{
+ background: white;
+ height: auto;
+ color: var(--color1);
+ text-align: center;
+ padding: 1rem;
+}
+footer h5{
+ font-size: 1.5rem;
+ text-transform: uppercase;
+ font-weight: bold;
+}
+footer h6{
+ font-size: 1.5rem;
+}
+footer h6 a{
+ text-decoration: none;
+}
+/*Fen Base CSS */
+/* komansman CSS of Index*/ 
+.nameAndSlogan{
+ text-align: center;
+ line-height: 1;
+}
+.nameAndSlogan h4{
+ text-transform: uppercase;
+ font-size: 2.75rem;
+}
+.nameAndSlogan h5{
+ font-size: 1.75rem;
+}
+#allConvo{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ margin: 2rem;
+}
+.convoItems{
+ background: white;
+ color: var(--color1);
+ margin: 1rem 0;
+ width: 75.0%;
+ padding: 3rem 2rem;
+ border-radius: 25px;
+}
+.convoItems p{
+ text-align: justify;
+}
+#espaceMembre div{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+}
+#espaceMembre div a{
+ text-decoration: none;
+ color: var(--color1);
+ font-size: 2.4rem;
+ margin: 0.5rem;
+}
+#login{
+ background:var(--color2);
+ padding: 1rem 4rem;
+ font-weight: 600;
+ border-radius: 10px;
+}
+#signup{
+ background:white;
+ padding: 1rem 4rem;
+ font-weight: 600;
+ border-radius: 10px;
+}
+/* Fen CSS of Index*/
+/* konansman CSS of login*/
+.formMember{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ background: var(--color2);
+ color: var(--color1);
+ margin:2rem auto;
+ padding: 2rem;
+ border-radius: 10px;
+ width: 45.0%;
+}
+.formMember h4{
+ text-transform: uppercase;
+ font-weight: bold;
+ color: white;
+}
+.inputGroup{
+ margin: 0.30rem;
+}
+.inputGroup label{
+ text-transform: uppercase;
+ font-weight: bold;
+ color: var(--color1);
+ font-size: 1rem;
+}
+.inputGroup input{
+ border:none;
+ outline: none;
+ height: 1.50rem;
+}
+.buttonAction{
+ margin: 1.2rem;
+}
+.buttonAction button{
+ padding: 0.50rem;
+ background: white;
+ border: none;
+ outline: none;
+ border-radius: 7.5px;
+ width: 100%;
+ color: var(--color1);
+ font-weight: bold;
+ 
+}
+/* fen CSS of Login*/
